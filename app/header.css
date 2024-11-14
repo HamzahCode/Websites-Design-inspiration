@@ -1,0 +1,125 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 10px;
+  color: red;
+  letter-spacing: 5px;
+}
+
+.logo-navbar {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.navbar {
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  margin: 10px 15px;
+  cursor: pointer;
+}
+
+.login-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.login-search div {
+  margin: 10px 15px;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.bigimage {
+  width: 1320px;
+  height: 500px;
+  margin: 10px auto;
+  border-radius: 10px;
+  position: relative;
+  background: linear-gradient(to right, #dcdcdc 90%, white);
+}
+
+.textphoto {
+  padding: 0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 100px;
+  z-index: 1;
+  color: white;
+  margin: 10px;
+  margin-left: 50px;
+  cursor: default;
+}
+
+.line1 .line2 .line3 {
+  z-index: 2;
+}
+
+.line1 {
+  font-size: 35px;
+  color: black;
+}
+
+.line2 {
+  font-size: 55px;
+  color: black;
+  font-weight: bold;
+}
+
+.line3 {
+  color: white;
+  font-size: 180px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px 20px 30px #000;
+  opacity: 0.3;
+}
+
+.bigimage img {
+  z-index: 1;
+  width: 480px;
+  height: 370px;
+  position: absolute;
+  bottom: 90px;
+  right: 300px;
+}
+
+.shop-categ {
+  background-color: #f02e3b;
+  border-style: none;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 70px;
+  left: 70px;
+}
+
+.shop-categ:hover {
+  background-color: #f02e3bd2;
+}
